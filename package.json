@@ -1,0 +1,12 @@
+{
+  "name": "generate-magnolia-key",
+  "version": "1.0.0",
+  "main": "generate-magnolia-key.js",
+  "dependencies": {
+    "global": "^4.4.0",
+    "puppeteer": "^2.0.0"
+  },
+  "bin": {
+    "generate-magnolia-key": "generate-magnolia-key.js"
+  }
+}
