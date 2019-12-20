@@ -3,10 +3,19 @@
   "version": "1.0.0",
   "main": "generate-magnolia-key.js",
   "dependencies": {
-    "global": "^4.4.0",
+    "chalk": "^3.0.0",
     "puppeteer": "^2.0.0"
+  },
+  "scripts": {
+    "prettier": "prettier --write \"**/*.{md,js}\"",
+    "precommit": "pretty-quick --staged"
   },
   "bin": {
     "generate-magnolia-key": "generate-magnolia-key.js"
+  },
+  "devDependencies": {
+    "husky": "^3.1.0",
+    "prettier": "^1.19.1",
+    "pretty-quick": "^2.0.1"
   }
 }
