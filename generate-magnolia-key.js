@@ -166,7 +166,7 @@ const updatePublicInstance = async (page, key) => {
   await browserForPublicInstance.close();
 
   console.log(
-    chalk.green("Key has been updated! In case want it, here it is:\n")
+    chalk.green("Key has been updated! In case you want it, here it is:\n")
   );
   console.log(chalk.yellow(newKey));
   process.exit();
